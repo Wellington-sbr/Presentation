@@ -7,9 +7,9 @@ body{
 }
 
 .box{
-    width: 450px;
+    width: 70%;
     background: rgba(0, 0, 0, 0.4);
-    padding: 40px;
+    padding: 2%;
     text-align: center;
     margin: auto;
     margin-top: 5%;
@@ -32,9 +32,7 @@ body{
     letter-spacing: 2px;
     font-weight: 100;
 }
-.box p{
-    text-align: justify;
-}
+
 ul{
     margin: 0;
     padding: 0;
