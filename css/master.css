@@ -1,0 +1,189 @@
+.presentation, .friends{
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 25px;
+} 
+
+.presentation, .friends, .proyectos{
+    background: #4CB8C4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3CD3AD, #4CB8C4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3CD3AD, #4CB8C4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 25px;
+}
+
+.box{
+    width: 55%;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+.box-img{
+    border-radius: 40%;
+    width: 175px;
+    height: 175px; 
+}
+.box h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+.box h3{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.box p{
+    text-align: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+}
+.box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: rgba(161, 161, 161, 1);
+}
+
+@media only screen and (min-width: 500px)
+{
+    .box-img{
+        width: 200px;
+        height: 200px;
+    }  
+
+    .box h1 {
+        font-weight: 300;
+    }
+
+    .box h3 {
+        font-weight: 200;
+    }
+
+    .box li a{
+        font-size: 60px;
+    }
+
+    .gabriel, .adriel, .yoryi{
+        margin: 10px 75px;
+    }
+
+}
+
+@media only screen and (min-width: 700px , max-width: 944px)
+{
+    .box-img{
+        width: 225px;
+        height: 225px;
+    }
+
+    .box h1 {
+        font-weight: 400;
+    }
+
+    .box h3 {
+        font-weight: 300;
+    }
+
+    .box p{
+        text-align: justify;
+    }
+
+    .box li a{
+        font-size: 75px;
+    }
+
+    .adriel{
+        transform: translate(150% , -105%)
+    }
+    
+    .yoryi{
+        transform: translate(0 , -55%)
+    }
+
+}
+
+@media only screen and (min-width: 1000px)
+{
+    .adriel{
+        transform: translate(120% , -105%)
+    }
+    
+    .yoryi{
+        transform: translate(240% , -161%)
+    }
+
+    .friends{
+        height: 500px;
+    }
+
+}
+
+.friends h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.gabriel, .adriel, .yoryi{
+    width: 220px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 25px;
+    margin: 10px 25px;
+    color: rgb(255, 255, 255);
+}
+
+.gabriel img, .adriel img, .yoryi img {
+    border-radius: 60%;
+    width: 175px;
+    height: 175px; 
+    transform: translate(10%)
+}
+
+.friends .redes ul{
+    display: inline-flex;
+}
+
+.friends .redes li a{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: all ease-in-out 250ms;
+    margin: 5px;
+}
+
+.friends .redes li a:hover{
+    color: rgba(161, 161, 161, 1);
+}
+
+.proyectos{
+    height: 500px;
+}
+
+.proyectos h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.proyectos a.button{
+    background-color: rgb(180, 180, 180);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 15%; 
+}
